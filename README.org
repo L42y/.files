@@ -1,0 +1,12 @@
+* dotfiles
+** dependencies
+
+*** [[http://www.gnu.org/software/stow][GNU Stow]]
+
+** installing
+
+#+BEGIN_SRC sh
+  stow {package}
+#+END_SRC
+
+e.g., stow git
