@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>org.l42y.tarsnapper</string>
+    <key>KeepAlive</key>
+    <false/>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/Users/L42y/.pyenv/shims/tarsnapper</string>
+      <string>-c</string>
+      <string>/Users/L42y/.tarsnap/tarsnapper.yml</string>
+      <string>make</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>StartCalendarInterval</key>
+    <dict>
+      <key>Minute</key>
+      <integer>0</integer>
+    </dict>
+	  <key>StandardErrorPath</key>
+	  <string>/tmp/tarsnapper.err.log</string>
+	  <key>StandardOutPath</key>
+	  <string>/tmp/tarsnapper.inf.log</string>
+  </dict>
+</plist>
