@@ -24,7 +24,21 @@ checkpoint-bytes 1G
 #aggressive-networking
 
 # Exclude files and directories matching specified patterns
-#exclude
+# Git
+exclude .git/hooks/*.sample
+# Emacs
+exclude .\#*
+# Python
+exclude *.pyc
+exclude build/
+exclude *.egg/
+exclude *.egg-info/
+# Web development
+exclude dist/
+exclude node_modules/
+exclude bower_components/
+exclude .tmp/
+exclude .divshot-cache/
 
 # Include only files and directories matching specified patterns
 #include

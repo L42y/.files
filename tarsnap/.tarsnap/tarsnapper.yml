@@ -16,3 +16,7 @@ jobs:
   documents:
     sources:
       - /Users/L42y/Documents
+
+  projects:
+    sources:
+      - /Users/L42y/Projects
