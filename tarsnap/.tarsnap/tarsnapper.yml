@@ -2,12 +2,16 @@ deltas: 1h 1d 7d 30d 365d 1461d
 target: /MacbookPro15/$name-$date
 
 jobs:
+  appdata:
+    sources:
+      - /Users/L42y/Library/Keychains/
   dotfiles:
     sources:
       - /Users/L42y/.boot2docker/certs
       - /Users/L42y/.cow
       - /Users/L42y/.divshot
       - /Users/L42y/.dockercfg
+      - /Users/L42y/.gnupg
       - /Users/L42y/.private
       - /Users/L42y/.ssh
     excludes:
