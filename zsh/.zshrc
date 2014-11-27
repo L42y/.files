@@ -1,8 +1,12 @@
+
 # PATH
 export PATH=$HOME/.pyenv/shims:$PATH
 
 # Editor
 export EDITOR=emacsclient
+
+# LANG
+export LANG=en_US.UTF-8
 
 # Docker
 export DOCKER_TLS_VERIFY=1
