@@ -1,7 +1,3 @@
-
-# PATH
-export PATH=$HOME/.pyenv/shims:$PATH
-
 # Editor
 export EDITOR=emacsclient
 
