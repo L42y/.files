@@ -12,6 +12,9 @@ export DOCKER_CERT_PATH=/Users/L42y/.boot2docker/certs/boot2docker-vm
 # Python
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
+# node.js
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+
 # antigen
 source ~/.antigen/antigen.zsh
 
