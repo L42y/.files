@@ -13,6 +13,9 @@ if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 # node.js
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
+# Ruby
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
 # antigen
 source ~/.antigen/antigen.zsh
 
