@@ -18,6 +18,11 @@ jobs:
     excludes:
       - /Users/L42y/.cow/stat*
 
+  pictures:
+    sources:
+      - /Users/L42y/Pictures
+    deltas: 1h
+
   documents:
     sources:
       - /Users/L42y/Documents
