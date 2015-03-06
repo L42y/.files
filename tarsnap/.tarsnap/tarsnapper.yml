@@ -1,4 +1,4 @@
-deltas: 1h 1d 7d 30d 365d 1461d
+deltas: 1h 1d 7d 30d 91d 182d 365d 1461d
 target: /MacbookPro15/$name-$date
 
 jobs:
