@@ -45,6 +45,10 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH
 # Ruby
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
+# Go
+export GOPATH=$HOME/Code/Go
+export PATH=$HOME/Code/Go/bin:$PATH
+
 # antigen
 source ~/.antigen/antigen.zsh
 
