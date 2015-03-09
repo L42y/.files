@@ -33,7 +33,11 @@ export LANG=en_US.UTF-8
 if which boot2docker > /dev/null; then eval "$(boot2docker shellinit -)"; fi
 
 # Python
-if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+export PYENV_VIRTUALENVWRAPPER_PREFER_PYVENV="true"
+if which pyenv > /dev/null; then
+    eval "$(pyenv init -)";
+    pyenv virtualenvwrapper_lazy
+fi
 
 # node.js
 export PATH=$HOME/.nodebrew/current/bin:$PATH
