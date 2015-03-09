@@ -21,7 +21,6 @@ jobs:
   pictures:
     sources:
       - /Users/L42y/Pictures
-    deltas: 1h
 
   documents:
     sources:
