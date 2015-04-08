@@ -48,7 +48,7 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # Go
 export GOPATH=$HOME/Code/Go
-export PATH=$HOME/Code/Go/bin:$PATH
+export PATH=$GOPATH/bin:$PATH
 
 # antigen
 source ~/.antigen/antigen.zsh
