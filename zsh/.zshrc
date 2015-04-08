@@ -29,9 +29,6 @@ export EDITOR=emacsclient
 # LANG
 export LANG=en_US.UTF-8
 
-# Docker
-if which boot2docker > /dev/null; then eval "$(boot2docker shellinit -)"; fi
-
 # Python
 export PYENV_VIRTUALENVWRAPPER_PREFER_PYVENV="true"
 if which pyenv > /dev/null; then
