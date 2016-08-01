@@ -23,30 +23,6 @@ zrclocal() {
     return 0
 }
 
-# Editor
-export EDITOR=emacsclient
-
-# LANG
-export LANG=en_US.UTF-8
-
-# Python
-export PYENV_VIRTUALENVWRAPPER_PREFER_PYVENV="true"
-if which pyenv > /dev/null; then
-    eval "$(pyenv init -)";
-    pyenv virtualenvwrapper_lazy
-fi
-
-# node.js
-export PATH=$HOME/.nodebrew/current/bin:$PATH
-
-# Ruby
-export PATH="$HOME/.rbenv/bin:$PATH"
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-
-# Go
-export GOPATH=$HOME/Code/Go
-export PATH=$GOPATH/bin:$PATH
-
 # antigen
 source ~/.antigen/antigen.zsh
 
