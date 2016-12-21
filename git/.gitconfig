@@ -5,5 +5,7 @@
 [user]
 	name = L42y
 	email = 423300@gmail.com
+[include]
+	path = ~/.gitsecret
 [credential]
 	helper = osxkeychain
