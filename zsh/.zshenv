@@ -7,6 +7,9 @@ export EDITOR=emacsclient
 # LANG
 export LANG=en_US.UTF-8
 
+# DICTIONARY
+export DICPATH=$DICPATH:$HOME/Library/Spelling
+
 # Python
 export PYENV_VIRTUALENVWRAPPER_PREFER_PYVENV="true"
 if which pyenv > /dev/null; then
