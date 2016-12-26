@@ -5,22 +5,21 @@ jobs:
   appdata:
     sources:
       - /Users/L42y/Library/Keychains/
+
   dotfiles:
     sources:
       - /Users/L42y/.aws
-      - /Users/L42y/.boot2docker/certs
-      - /Users/L42y/.cow
-      - /Users/L42y/.divshot
+      - /Users/L42y/.docker
       - /Users/L42y/.dockercfg
+      - /Users/L42y/.gitsecret
       - /Users/L42y/.gnupg
+      - /Users/L42y/.hunspell*
+      - /Users/L42y/.netrc
+      - /Users/L42y/.ngrok
+      - /Users/L42y/.npmrc
       - /Users/L42y/.private
       - /Users/L42y/.ssh
-    excludes:
-      - /Users/L42y/.cow/stat*
-
-  pictures:
-    sources:
-      - /Users/L42y/Pictures
+      - /Users/L42y/.surge.conf
 
   documents:
     sources:
