@@ -39,6 +39,8 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 
 antigen bundle zsh-users/zsh-history-substring-search
 # bind UP and DOWN arrow keys
+bindkey '\eOA' history-substring-search-up
+bindkey '\eOB' history-substring-search-down
 zmodload zsh/terminfo
 bindkey "$terminfo[kcuu1]" history-substring-search-up
 bindkey "$terminfo[kcud1]" history-substring-search-down
